@@ -1,0 +1,7 @@
+pod "NSDate-TNSGregorianCalendar", :path => "../NSDate-TNSGregorianCalendar.podspec"
+
+target "Demo" do
+end
+
+target "DemoTests" do
+end
