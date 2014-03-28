@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321C37DEFC824695A7651353 /* libPods-NSDate-TNSGregorianCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F9EC3F5D8E4637824B13FF /* libPods-NSDate-TNSGregorianCalendar.a */; };
+		AE32FFEAF24449D4B545E473 /* libPods-NSDate-TNSGregorianCalendarTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6C90C9D8A2144C1BEA5C097 /* libPods-NSDate-TNSGregorianCalendarTests.a */; };
+		B1DB633B18E4FC9200CCF7C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB633A18E4FC9200CCF7C7 /* Foundation.framework */; };
+		B1DB633D18E4FC9200CCF7C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB633C18E4FC9200CCF7C7 /* CoreGraphics.framework */; };
+		B1DB633F18E4FC9200CCF7C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB633E18E4FC9200CCF7C7 /* UIKit.framework */; };
+		B1DB634518E4FC9200CCF7C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DB634318E4FC9200CCF7C7 /* InfoPlist.strings */; };
+		B1DB634718E4FC9200CCF7C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB634618E4FC9200CCF7C7 /* main.m */; };
+		B1DB634B18E4FC9200CCF7C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB634A18E4FC9200CCF7C7 /* AppDelegate.m */; };
+		B1DB634E18E4FC9200CCF7C7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DB634C18E4FC9200CCF7C7 /* Main_iPhone.storyboard */; };
+		B1DB635118E4FC9200CCF7C7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DB634F18E4FC9200CCF7C7 /* Main_iPad.storyboard */; };
+		B1DB635418E4FC9200CCF7C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB635318E4FC9200CCF7C7 /* ViewController.m */; };
+		B1DB635618E4FC9200CCF7C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1DB635518E4FC9200CCF7C7 /* Images.xcassets */; };
+		B1DB635D18E4FC9200CCF7C7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB635C18E4FC9200CCF7C7 /* XCTest.framework */; };
+		B1DB635E18E4FC9200CCF7C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB633A18E4FC9200CCF7C7 /* Foundation.framework */; };
+		B1DB635F18E4FC9200CCF7C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB633E18E4FC9200CCF7C7 /* UIKit.framework */; };
+		B1DB636718E4FC9200CCF7C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DB636518E4FC9200CCF7C7 /* InfoPlist.strings */; };
+		B1DB637C18E503E100CCF7C7 /* NSDate+TNSGregorianCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB637B18E503E100CCF7C7 /* NSDate+TNSGregorianCalendar.m */; };
+		CB7B7694193F048D4692FD12 /* DateComponentPropertiesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B734B616882C292BECB7F /* DateComponentPropertiesSpec.m */; };
+		CB7B77F2F7E9642A031F8217 /* FastDateFormatMethodSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B7669B5D734C2119410F2 /* FastDateFormatMethodSpec.m */; };
+		CB7B7C43CED5F5521B57D254 /* RelativeDateMethodSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B757255C275B64EDD0ADD /* RelativeDateMethodSpec.m */; };
+		CB7B7CA4CFB19079950501D8 /* CalculateDateMethodSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B7446E2779C7AEAE43BEB /* CalculateDateMethodSpec.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1DB636018E4FC9200CCF7C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1DB632F18E4FC9100CCF7C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1DB633618E4FC9200CCF7C7;
+			remoteInfo = "NSDate-TNSGregorianCalendar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		576DE78146C14A5E8BD8881A /* Pods-NSDate-TNSGregorianCalendarTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDate-TNSGregorianCalendarTests.xcconfig"; path = "Pods/Pods-NSDate-TNSGregorianCalendarTests.xcconfig"; sourceTree = "<group>"; };
+		A2F9EC3F5D8E4637824B13FF /* libPods-NSDate-TNSGregorianCalendar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDate-TNSGregorianCalendar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB49676D4A9402DB8267F51 /* Pods-NSDate-TNSGregorianCalendar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSDate-TNSGregorianCalendar.xcconfig"; path = "Pods/Pods-NSDate-TNSGregorianCalendar.xcconfig"; sourceTree = "<group>"; };
+		B1DB633718E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSDate-TNSGregorianCalendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DB633A18E4FC9200CCF7C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B1DB633C18E4FC9200CCF7C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B1DB633E18E4FC9200CCF7C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B1DB634218E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDate-TNSGregorianCalendar-Info.plist"; sourceTree = "<group>"; };
+		B1DB634418E4FC9200CCF7C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1DB634618E4FC9200CCF7C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B1DB634818E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate-TNSGregorianCalendar-Prefix.pch"; sourceTree = "<group>"; };
+		B1DB634918E4FC9200CCF7C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1DB634A18E4FC9200CCF7C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1DB634D18E4FC9200CCF7C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		B1DB635018E4FC9200CCF7C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		B1DB635218E4FC9200CCF7C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B1DB635318E4FC9200CCF7C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B1DB635518E4FC9200CCF7C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B1DB635B18E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSDate-TNSGregorianCalendarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1DB635C18E4FC9200CCF7C7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B1DB636418E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDate-TNSGregorianCalendarTests-Info.plist"; sourceTree = "<group>"; };
+		B1DB636618E4FC9200CCF7C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B1DB637A18E503E100CCF7C7 /* NSDate+TNSGregorianCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+TNSGregorianCalendar.h"; sourceTree = "<group>"; };
+		B1DB637B18E503E100CCF7C7 /* NSDate+TNSGregorianCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TNSGregorianCalendar.m"; sourceTree = "<group>"; };
+		CB7B734B616882C292BECB7F /* DateComponentPropertiesSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateComponentPropertiesSpec.m; sourceTree = "<group>"; };
+		CB7B7446E2779C7AEAE43BEB /* CalculateDateMethodSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateDateMethodSpec.m; sourceTree = "<group>"; };
+		CB7B757255C275B64EDD0ADD /* RelativeDateMethodSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelativeDateMethodSpec.m; sourceTree = "<group>"; };
+		CB7B7669B5D734C2119410F2 /* FastDateFormatMethodSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastDateFormatMethodSpec.m; sourceTree = "<group>"; };
+		D6C90C9D8A2144C1BEA5C097 /* libPods-NSDate-TNSGregorianCalendarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDate-TNSGregorianCalendarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1DB633418E4FC9200CCF7C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB633D18E4FC9200CCF7C7 /* CoreGraphics.framework in Frameworks */,
+				B1DB633F18E4FC9200CCF7C7 /* UIKit.framework in Frameworks */,
+				B1DB633B18E4FC9200CCF7C7 /* Foundation.framework in Frameworks */,
+				321C37DEFC824695A7651353 /* libPods-NSDate-TNSGregorianCalendar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DB635818E4FC9200CCF7C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB635D18E4FC9200CCF7C7 /* XCTest.framework in Frameworks */,
+				B1DB635F18E4FC9200CCF7C7 /* UIKit.framework in Frameworks */,
+				B1DB635E18E4FC9200CCF7C7 /* Foundation.framework in Frameworks */,
+				AE32FFEAF24449D4B545E473 /* libPods-NSDate-TNSGregorianCalendarTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1DB632E18E4FC9100CCF7C7 = {
+			isa = PBXGroup;
+			children = (
+				B1DB637618E5039700CCF7C7 /* Classes */,
+				B1DB634018E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar */,
+				B1DB636218E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendarTests */,
+				B1DB633918E4FC9200CCF7C7 /* Frameworks */,
+				B1DB633818E4FC9200CCF7C7 /* Products */,
+				ACB49676D4A9402DB8267F51 /* Pods-NSDate-TNSGregorianCalendar.xcconfig */,
+				576DE78146C14A5E8BD8881A /* Pods-NSDate-TNSGregorianCalendarTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		B1DB633818E4FC9200CCF7C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB633718E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar.app */,
+				B1DB635B18E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1DB633918E4FC9200CCF7C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB633A18E4FC9200CCF7C7 /* Foundation.framework */,
+				B1DB633C18E4FC9200CCF7C7 /* CoreGraphics.framework */,
+				B1DB633E18E4FC9200CCF7C7 /* UIKit.framework */,
+				B1DB635C18E4FC9200CCF7C7 /* XCTest.framework */,
+				A2F9EC3F5D8E4637824B13FF /* libPods-NSDate-TNSGregorianCalendar.a */,
+				D6C90C9D8A2144C1BEA5C097 /* libPods-NSDate-TNSGregorianCalendarTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1DB634018E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB634918E4FC9200CCF7C7 /* AppDelegate.h */,
+				B1DB634A18E4FC9200CCF7C7 /* AppDelegate.m */,
+				B1DB634C18E4FC9200CCF7C7 /* Main_iPhone.storyboard */,
+				B1DB634F18E4FC9200CCF7C7 /* Main_iPad.storyboard */,
+				B1DB635218E4FC9200CCF7C7 /* ViewController.h */,
+				B1DB635318E4FC9200CCF7C7 /* ViewController.m */,
+				B1DB635518E4FC9200CCF7C7 /* Images.xcassets */,
+				B1DB634118E4FC9200CCF7C7 /* Supporting Files */,
+			);
+			path = "NSDate-TNSGregorianCalendar";
+			sourceTree = "<group>";
+		};
+		B1DB634118E4FC9200CCF7C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB634218E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar-Info.plist */,
+				B1DB634318E4FC9200CCF7C7 /* InfoPlist.strings */,
+				B1DB634618E4FC9200CCF7C7 /* main.m */,
+				B1DB634818E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1DB636218E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB636318E4FC9200CCF7C7 /* Supporting Files */,
+				CB7B734B616882C292BECB7F /* DateComponentPropertiesSpec.m */,
+				CB7B757255C275B64EDD0ADD /* RelativeDateMethodSpec.m */,
+				CB7B7446E2779C7AEAE43BEB /* CalculateDateMethodSpec.m */,
+				CB7B7669B5D734C2119410F2 /* FastDateFormatMethodSpec.m */,
+			);
+			path = "NSDate-TNSGregorianCalendarTests";
+			sourceTree = "<group>";
+		};
+		B1DB636318E4FC9200CCF7C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB636418E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendarTests-Info.plist */,
+				B1DB636518E4FC9200CCF7C7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1DB637618E5039700CCF7C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B1DB637A18E503E100CCF7C7 /* NSDate+TNSGregorianCalendar.h */,
+				B1DB637B18E503E100CCF7C7 /* NSDate+TNSGregorianCalendar.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1DB633618E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DB636C18E4FC9200CCF7C7 /* Build configuration list for PBXNativeTarget "NSDate-TNSGregorianCalendar" */;
+			buildPhases = (
+				A74E0FF92BE042C9AEEC0B1F /* Check Pods Manifest.lock */,
+				B1DB633318E4FC9200CCF7C7 /* Sources */,
+				B1DB633418E4FC9200CCF7C7 /* Frameworks */,
+				B1DB633518E4FC9200CCF7C7 /* Resources */,
+				F7F6605F79D0419FA24676C8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSDate-TNSGregorianCalendar";
+			productName = "NSDate-TNSGregorianCalendar";
+			productReference = B1DB633718E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1DB635A18E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1DB636F18E4FC9200CCF7C7 /* Build configuration list for PBXNativeTarget "NSDate-TNSGregorianCalendarTests" */;
+			buildPhases = (
+				9A228D7E1965407F85B29FB1 /* Check Pods Manifest.lock */,
+				B1DB635718E4FC9200CCF7C7 /* Sources */,
+				B1DB635818E4FC9200CCF7C7 /* Frameworks */,
+				B1DB635918E4FC9200CCF7C7 /* Resources */,
+				AA944BDE1A0140D090D60148 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1DB636118E4FC9200CCF7C7 /* PBXTargetDependency */,
+			);
+			name = "NSDate-TNSGregorianCalendarTests";
+			productName = "NSDate-TNSGregorianCalendarTests";
+			productReference = B1DB635B18E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1DB632F18E4FC9100CCF7C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Takuji Nishibayashi";
+				TargetAttributes = {
+					B1DB635A18E4FC9200CCF7C7 = {
+						TestTargetID = B1DB633618E4FC9200CCF7C7;
+					};
+				};
+			};
+			buildConfigurationList = B1DB633218E4FC9100CCF7C7 /* Build configuration list for PBXProject "NSDate-TNSGregorianCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1DB632E18E4FC9100CCF7C7;
+			productRefGroup = B1DB633818E4FC9200CCF7C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1DB633618E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar */,
+				B1DB635A18E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1DB633518E4FC9200CCF7C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB635118E4FC9200CCF7C7 /* Main_iPad.storyboard in Resources */,
+				B1DB635618E4FC9200CCF7C7 /* Images.xcassets in Resources */,
+				B1DB634E18E4FC9200CCF7C7 /* Main_iPhone.storyboard in Resources */,
+				B1DB634518E4FC9200CCF7C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DB635918E4FC9200CCF7C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB636718E4FC9200CCF7C7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A228D7E1965407F85B29FB1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A74E0FF92BE042C9AEEC0B1F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA944BDE1A0140D090D60148 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-NSDate-TNSGregorianCalendarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F6605F79D0419FA24676C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-NSDate-TNSGregorianCalendar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1DB633318E4FC9200CCF7C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1DB635418E4FC9200CCF7C7 /* ViewController.m in Sources */,
+				B1DB634B18E4FC9200CCF7C7 /* AppDelegate.m in Sources */,
+				B1DB634718E4FC9200CCF7C7 /* main.m in Sources */,
+				B1DB637C18E503E100CCF7C7 /* NSDate+TNSGregorianCalendar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DB635718E4FC9200CCF7C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB7B7694193F048D4692FD12 /* DateComponentPropertiesSpec.m in Sources */,
+				CB7B7C43CED5F5521B57D254 /* RelativeDateMethodSpec.m in Sources */,
+				CB7B7CA4CFB19079950501D8 /* CalculateDateMethodSpec.m in Sources */,
+				CB7B77F2F7E9642A031F8217 /* FastDateFormatMethodSpec.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1DB636118E4FC9200CCF7C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1DB633618E4FC9200CCF7C7 /* NSDate-TNSGregorianCalendar */;
+			targetProxy = B1DB636018E4FC9200CCF7C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1DB634318E4FC9200CCF7C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DB634418E4FC9200CCF7C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B1DB634C18E4FC9200CCF7C7 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DB634D18E4FC9200CCF7C7 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B1DB634F18E4FC9200CCF7C7 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DB635018E4FC9200CCF7C7 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B1DB636518E4FC9200CCF7C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1DB636618E4FC9200CCF7C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1DB636A18E4FC9200CCF7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1DB636B18E4FC9200CCF7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1DB636D18E4FC9200CCF7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB49676D4A9402DB8267F51 /* Pods-NSDate-TNSGregorianCalendar.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDate-TNSGregorianCalendar/NSDate-TNSGregorianCalendar-Prefix.pch";
+				INFOPLIST_FILE = "NSDate-TNSGregorianCalendar/NSDate-TNSGregorianCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B1DB636E18E4FC9200CCF7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB49676D4A9402DB8267F51 /* Pods-NSDate-TNSGregorianCalendar.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDate-TNSGregorianCalendar/NSDate-TNSGregorianCalendar-Prefix.pch";
+				INFOPLIST_FILE = "NSDate-TNSGregorianCalendar/NSDate-TNSGregorianCalendar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B1DB637018E4FC9200CCF7C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576DE78146C14A5E8BD8881A /* Pods-NSDate-TNSGregorianCalendarTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSDate-TNSGregorianCalendar.app/NSDate-TNSGregorianCalendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDate-TNSGregorianCalendar/NSDate-TNSGregorianCalendar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSDate-TNSGregorianCalendarTests/NSDate-TNSGregorianCalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B1DB637118E4FC9200CCF7C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576DE78146C14A5E8BD8881A /* Pods-NSDate-TNSGregorianCalendarTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSDate-TNSGregorianCalendar.app/NSDate-TNSGregorianCalendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDate-TNSGregorianCalendar/NSDate-TNSGregorianCalendar-Prefix.pch";
+				INFOPLIST_FILE = "NSDate-TNSGregorianCalendarTests/NSDate-TNSGregorianCalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1DB633218E4FC9100CCF7C7 /* Build configuration list for PBXProject "NSDate-TNSGregorianCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DB636A18E4FC9200CCF7C7 /* Debug */,
+				B1DB636B18E4FC9200CCF7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DB636C18E4FC9200CCF7C7 /* Build configuration list for PBXNativeTarget "NSDate-TNSGregorianCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DB636D18E4FC9200CCF7C7 /* Debug */,
+				B1DB636E18E4FC9200CCF7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1DB636F18E4FC9200CCF7C7 /* Build configuration list for PBXNativeTarget "NSDate-TNSGregorianCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1DB637018E4FC9200CCF7C7 /* Debug */,
+				B1DB637118E4FC9200CCF7C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1DB632F18E4FC9100CCF7C7 /* Project object */;
+}

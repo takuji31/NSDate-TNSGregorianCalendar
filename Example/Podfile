@@ -1,7 +1,10 @@
-pod "NSDate-TNSGregorianCalendar", :path => "../NSDate-TNSGregorianCalendar.podspec"
+platform :ios, "7.0"
 
-target "Demo" do
+target "NSDate-TNSGregorianCalendar" do
+    pod "NSDate-TNSGregorianCalendar", :path => "../NSDate-TNSGregorianCalendar.podspec"
 end
 
-target "DemoTests" do
+target "NSDate-TNSGregorianCalendarTests" do
+    pod "NSDate-TNSDateInitializer"
+    pod "Kiwi/XCTest", "~> 2.2"
 end

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES"
+            buildForTesting = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B1DB635A18E4FC9200CCF7C7"
+               BuildableName = "NSDate-TNSGregorianCalendarTests.xctest"
+               BlueprintName = "NSDate-TNSGregorianCalendarTests"
+               ReferencedContainer = "container:NSDate-TNSGregorianCalendar.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug">
+      <Testables>
+         <TestableReference>
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B1DB635A18E4FC9200CCF7C7"
+               BuildableName = "NSDate-TNSGregorianCalendarTests.xctest"
+               BlueprintName = "NSDate-TNSGregorianCalendarTests"
+               ReferencedContainer = "container:NSDate-TNSGregorianCalendar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+   </TestAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO">
+   </LaunchAction>
+</Scheme>
