@@ -38,7 +38,6 @@ typedef NS_ENUM(NSUInteger, TNSGregorianCalendarTruncateUnit) {
 
 #pragma mark - Relative date methods
 
-
 + (NSDate *)dateToday;
 + (NSDate *)dateYesterday;
 + (NSDate *)dateTomorrow;
@@ -49,6 +48,15 @@ typedef NS_ENUM(NSUInteger, TNSGregorianCalendarTruncateUnit) {
 - (NSDate *)dateByAddingDays:(NSInteger)days;
 - (NSDate *)dateByAddingMonths:(NSInteger)months;
 - (NSDate *)dateByAddingYears:(NSInteger)years;
+
+#pragma mark - Start and end of unit
+
+- (NSDate *)dateAtStartOfDay;
+- (NSDate *)dateAtEndOfDay;
+- (NSDate *)dateAtStartOfMonth;
+- (NSDate *)dateAtEndOfMonth;
+- (NSDate *)dateAtStartOfYear;
+- (NSDate *)dateAtEndOfYear;
 
 #pragma mark - Date components
 

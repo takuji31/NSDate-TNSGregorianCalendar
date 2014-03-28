@@ -124,6 +124,53 @@
 }
 
 
+#pragma mark - Start and end of unit
+
+- (NSDate *)dateAtStartOfDay {
+    NSDateComponents *components = [self tns_dateComponentsWithUnit:NSCalendarUnitEra|NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay];
+    return [[NSDate tns_gregorianCalendar] dateFromComponents:components];
+}
+
+- (NSDate *)dateAtEndOfDay {
+    NSDateComponents *components = [self tns_dateComponentsWithUnit:NSCalendarUnitEra|NSCalendarUnitYear|NSCalendarUnitMonth|NSCalendarUnitDay];
+    [components setHour:23];
+    [components setMinute:59];
+    [components setSecond:59];
+    return [[NSDate tns_gregorianCalendar] dateFromComponents:components];
+}
+
+- (NSDate *)dateAtStartOfMonth {
+    NSDateComponents *components = [self tns_dateComponentsWithUnit:NSCalendarUnitEra|NSCalendarUnitYear|NSCalendarUnitMonth];
+    return [[NSDate tns_gregorianCalendar] dateFromComponents:components];
+}
+
+- (NSDate *)dateAtEndOfMonth {
+    NSRange range = [[NSDate tns_gregorianCalendar] rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:self];
+    NSDateComponents *components = [self tns_dateComponentsWithUnit:NSCalendarUnitEra|NSCalendarUnitYear|NSCalendarUnitMonth];
+    [components setDay:range.length];
+    [components setHour:23];
+    [components setMinute:59];
+    [components setSecond:59];
+    return [[NSDate tns_gregorianCalendar] dateFromComponents:components];
+}
+
+- (NSDate *)dateAtStartOfYear {
+    NSDateComponents *components = [self tns_dateComponentsWithUnit:NSCalendarUnitEra|NSCalendarUnitYear];
+    return [[NSDate tns_gregorianCalendar] dateFromComponents:components];
+}
+
+- (NSDate *)dateAtEndOfYear {
+    NSDateComponents *components = [self tns_dateComponentsWithUnit:NSCalendarUnitEra|NSCalendarUnitYear];
+    [components setMonth:12];
+    [components setDay:31];
+    [components setHour:23];
+    [components setMinute:59];
+    [components setSecond:59];
+    return [[NSDate tns_gregorianCalendar] dateFromComponents:components];
+}
+
+
+
 #pragma mark - Date components
 
 - (NSDateComponents *)tns_dateComponentsWithUnit:(NSCalendarUnit)unit {

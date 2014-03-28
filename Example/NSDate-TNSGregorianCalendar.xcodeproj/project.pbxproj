@@ -24,6 +24,7 @@
 		B1DB635F18E4FC9200CCF7C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1DB633E18E4FC9200CCF7C7 /* UIKit.framework */; };
 		B1DB636718E4FC9200CCF7C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1DB636518E4FC9200CCF7C7 /* InfoPlist.strings */; };
 		B1DB637C18E503E100CCF7C7 /* NSDate+TNSGregorianCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = B1DB637B18E503E100CCF7C7 /* NSDate+TNSGregorianCalendar.m */; };
+		CB7B70C537BA40CBB1F45643 /* StartAndEndOfUnitSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B7B25ABABF79C09D76DDC /* StartAndEndOfUnitSpec.m */; };
 		CB7B7694193F048D4692FD12 /* DateComponentPropertiesSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B734B616882C292BECB7F /* DateComponentPropertiesSpec.m */; };
 		CB7B77F2F7E9642A031F8217 /* FastDateFormatMethodSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B7669B5D734C2119410F2 /* FastDateFormatMethodSpec.m */; };
 		CB7B7C43CED5F5521B57D254 /* RelativeDateMethodSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7B757255C275B64EDD0ADD /* RelativeDateMethodSpec.m */; };
@@ -69,6 +70,7 @@
 		CB7B7446E2779C7AEAE43BEB /* CalculateDateMethodSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateDateMethodSpec.m; sourceTree = "<group>"; };
 		CB7B757255C275B64EDD0ADD /* RelativeDateMethodSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelativeDateMethodSpec.m; sourceTree = "<group>"; };
 		CB7B7669B5D734C2119410F2 /* FastDateFormatMethodSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FastDateFormatMethodSpec.m; sourceTree = "<group>"; };
+		CB7B7B25ABABF79C09D76DDC /* StartAndEndOfUnitSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StartAndEndOfUnitSpec.m; sourceTree = "<group>"; };
 		D6C90C9D8A2144C1BEA5C097 /* libPods-NSDate-TNSGregorianCalendarTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NSDate-TNSGregorianCalendarTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -167,6 +169,7 @@
 				CB7B757255C275B64EDD0ADD /* RelativeDateMethodSpec.m */,
 				CB7B7446E2779C7AEAE43BEB /* CalculateDateMethodSpec.m */,
 				CB7B7669B5D734C2119410F2 /* FastDateFormatMethodSpec.m */,
+				CB7B7B25ABABF79C09D76DDC /* StartAndEndOfUnitSpec.m */,
 			);
 			path = "NSDate-TNSGregorianCalendarTests";
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				CB7B7C43CED5F5521B57D254 /* RelativeDateMethodSpec.m in Sources */,
 				CB7B7CA4CFB19079950501D8 /* CalculateDateMethodSpec.m in Sources */,
 				CB7B77F2F7E9642A031F8217 /* FastDateFormatMethodSpec.m in Sources */,
+				CB7B70C537BA40CBB1F45643 /* StartAndEndOfUnitSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
